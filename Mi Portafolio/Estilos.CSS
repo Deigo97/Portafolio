@@ -1,0 +1,121 @@
+body {
+   background-color: #AED5C0;
+}
+.Navegacion {
+    background-color: #1E201E;
+}
+.Menuu {
+    padding: 10px;
+    margin-left: 750px;
+}
+.d-inline-block {
+    width: 100px;
+    display: inline-block;
+    background-color: #3C3D37;
+    text-align: center;
+    margin: 7px;
+    padding: 10px;
+    color: aliceblue;
+}
+.Bienvenido {
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Imagenes {
+    display: block;
+    margin: auto;
+    width: 1000px;
+    height: 450px;
+}
+.Footer {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #808D7C;
+    height: 150px;
+}
+.Logo {
+    display: block;
+    float: left;
+}
+.Bb {
+    font-size: 50px;
+}
+.About-us {
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+.text-info {
+    margin-top: -30px;
+    text-align: justify;
+    background-color: #AED5C0;
+    color: #000000;
+}
+.Bienvenidos {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    color: white;
+}
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: left;
+    margin-left: 140px;
+}
+.primerProyect { 
+    display: block;
+    margin: auto;
+    width: 400px;
+    margin-left: 15px;
+}
+.p2 {
+    text-align: center;
+    margin-top: -34px;
+}
+.p3 {
+    text-align: right;
+    margin-right: 150px;
+    margin-top: -36px;
+}
+.Footer {
+    border-style: solid;
+}
+.RedesSociales {
+    margin-left: -1000px;
+    margin-top: -100px;
+}
+.Instagram {
+    max-width: 2%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    margin: auto;
+}
+.linkedin {
+    max-width: 2%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    margin: auto;
+}
+.X {
+    max-width: 3%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    margin: auto;
+}
+.github {
+    max-width: 2%;
+    height: auto;
+    margin: 20px;
+    display: inline-block;
+    margin: auto;
+}
+
