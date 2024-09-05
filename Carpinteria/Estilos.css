@@ -1,0 +1,225 @@
+body {
+    background-color: white ;
+    margin:0;
+    padding:0;
+}
+
+.Encabezado{
+    position: relative;
+}
+.Fondonegro {
+    width: 100%;
+    margin: 0;
+}
+@keyframes fadeInMove {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.MZ {
+    animation-delay: 1.2s;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+    margin-top: -380px;
+    animation-name: fadeInMove;               /* Nombre de la animación */
+    animation-duration: 3s;                   /* Duración de la animación */
+    animation-timing-function: ease-in-out;   /* Función de temporización */
+    animation-delay: 1s;                      /* Retraso antes de iniciar la animación */
+    animation-iteration-count: infinite;      /* Número de repeticiones */
+    animation-direction: alternate;           /* Dirección de la animación */
+    animation-fill-mode: forwards;            /* Estilo final de la animación */
+}
+.Slogan {
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+}
+.S2P {
+    color: #A6821E;
+    text-align: right;
+    margin-top: 50px;
+}
+.WHY {
+    font-size: 75px;
+    margin-top: 200px;
+    text-align: justify;
+    margin-left: 1100px;
+}
+.T1 {
+    margin-top: -35px;
+    font-size: 1.7em;
+    text-align: justify;
+    margin-left: 1100px;
+}
+.B1 {
+    margin-right: 460px;
+    font-size: 2em;
+    color: #A6821E;
+    border-color: #A6821E;
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 35px;
+}
+
+.pic-ctn {
+  width: auto;
+  height: -20px;
+}
+
+@keyframes display {
+  0% {
+    transform: translateX(250px);
+    opacity: 0;
+  }
+  10% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  30% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(-150px);
+    opacity: 0;
+  }
+}
+
+.pic-ctn {
+  position: relative;
+  height: 200px;
+  margin-top: -45vh;
+}
+
+.pic-ctn > img {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  left: 50px;
+  animation: display 10s infinite;
+  margin-left: 200px;
+  width: 700px;
+  
+}
+
+img:nth-child(2) {
+  animation-delay: 2s;
+}
+img:nth-child(3) {
+  animation-delay: 4s;
+}
+img:nth-child(4) {
+  animation-delay: 6s;
+}
+img:nth-child(5) {
+  animation-delay: 8s;
+}
+.ST{
+  text-align: center;
+  margin-top: 500px;
+  font-size: 100px;
+  color: #A6821E;
+}
+.Servicios {
+  justify-content: space-around;
+  display: flex;
+}
+
+#hero {
+  min-height: 100vh;
+  position: relative;
+}
+video {
+  height: 35vh;
+}
+.video1 {
+  height: 35vh;
+}
+.video2 {
+  height: 35vh;
+}
+.RIM {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  margin-top: -200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Restauracion {
+  margin-left: 110px;
+}
+.Instalacion {
+  margin-left: 250px;
+}
+.Muebles {
+  margin-left: 300px;
+}
+.Equipo {
+  text-align: center;
+  margin-top: 2em;
+  font-size: 6em;
+  color: #A6821E;
+}
+.EZ {
+  height: auto;
+  width: 300px;
+  border-style: solid;
+  border-color: #A6821E;
+  margin-left: 740px;
+  color: #A6821E;
+  position: relative;
+  animation: mymove 3s;
+}
+@keyframes mymove {
+  from {top: 200px;}
+  to {top: 0px; background-color: white;}
+}
+.CEO {
+  border-style: none;
+  text-align: center;
+  font-size: 3em;
+}
+.CEOO {
+  margin-top: -1.5em;
+  color: #A6821E;
+  color: #A6821E;
+  position: relative;
+  animation: mymove 3s;
+}
+.fotter {
+  height: auto;
+  width: 1790px;
+}
+.Contactos {
+  z-index: 1;
+  color: white;
+  font-size: 4em;
+  text-align: center;
+  margin-top: -700px;
+}
+.Instagram {
+  margin-left: 13.2em;
+  justify-content: space-around;
+  display: flex;
+  height: 100px;
+}
+.Insta {
+  text-align: center;
+  margin-top: -10px;
+}
+
+
+
+
+
